@@ -1,4 +1,13 @@
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>README for Project Name</title>
+</head>
+
+<body>
     <h1>Project Name</h1>
 
     <p><strong>Project Name</strong> is an innovative solution designed to <em>[brief description of the project and its purpose]</em>. 
