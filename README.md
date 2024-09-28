@@ -1,6 +1,6 @@
-# Project Name
+# Knock2Watches
 
-**Project Name** is an innovative solution designed to [brief description of the project and its purpose]. This project helps [who it helps] by providing [what it offers].
+**Knock2Watches** is an innovative solution designed to [show how crud operations works and how we sort the files etc.]. This project helps [to beginner to have a glance how code looks when you develop a full stack website] by providing [necessary functionalities to get know Full Stack Development].
 
 ## Table of Contents
 
