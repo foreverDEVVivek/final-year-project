@@ -1,0 +1,25 @@
+<% layout('/layouts/boilerplate') %>
+
+<h1 class="watchs_taital m-5">04<br>Sign In</h1>
+
+<div class="contact_section_2">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-10">
+             <div class="mail_section_1">
+             <form method="POST" action="/users">
+                <input type="text" class="mail_text" placeholder="Username" required name="username">     
+                <input type="email" class="mail_text" placeholder="Email" required name="email">    
+                <input type="password" class="mail_text" placeholder="Password" required name="password">
+                <button class="send_bt"><a>SUBMIT</a></button>
+            </form>
+            <form method="GET" action="/users/login">
+            <button class="send_bt"><div class="read_bt2 m-lg-0 mt-1 p-1"><a>Already Signed In!</a></div></button>
+            </form>
+        </div>
+              
+    </div>
+        </div>
+    </div>
+ </div>
+</div>

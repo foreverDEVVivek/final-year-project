@@ -1,0 +1,98 @@
+<% layout('/layouts/boilerplate') %>
+<% if(success.length!=0 || error.length!=0) { %>
+
+   <div class="alert">
+      <h3><%= success %> Please Refresh the Page.</h3>
+    </div>
+
+   <% } %>
+      <!-- background bg start -->
+      <div class="background_bg">
+        <!-- testimonial section start -->
+         <div class="testimonial_section layout_padding">
+            <div class="container">
+               <h1 class="watchs_taital">03<br>Testimonial</h1>
+               <div class="testimonial_section_2">
+                  <div class="row">
+                     <div class="col-md-6">
+                        <div class="box_main">
+                           <p class="testimonial_text">"Clear as Slogan Shows your Time, every watch shows the time but it shows your whether you're rich or poor. Nevertheless, The watches are amazing, I personally use watches as well as i recommend to others but they can't afford lol!, It helps me to say my introduction with saying nothing.</p>
+                        </div>
+                     </div>
+                     <div class="col-md-6">
+                        <div class="box_main">
+                           <p class="testimonial_text">Hey Guys! What do you think why i am here, I got payment of 1 Luxurious watch for writing this testimonial that's why i writing testimonial. However, I don't need of grace of anyone except god it is all i did for our friendship. But, Thank you for your precious gift. I will be wearing on my birthday.</p>
+                        </div>
+                     </div>
+                     <% for(review of allReviews) {%>
+                        <div class="col-md-6">
+                           <div class="box_main">
+                              <p class="testimonial_text"><%=review.comment%></p>
+                              <br>
+                              <p class="testimonial_text author_text">-<%=review.author%></p>
+                              <form method="POST" action="/testimonial/<%=review._id%>?_method=DELETE">
+                              <button class="send_bt"><a>Delete</a></button>
+                           </form>
+                              <!-- Inactive button -->
+                              <form method="get" action="/testimonial/<%=review._id%>/edit"> 
+                    <button class="send_bt"><div class="read_bt2 m-lg-0 mt-1 p-1"><a>Edit!</a></div></button>
+                  </form>
+                           </div>
+                        </div>
+                        <% } %>
+                  </div>
+               </div>
+               <h1 class="watchs_taital mt-5">04<br>Leave A Comment</h1>
+            </div>
+            
+            <br>
+            <div class="contact_section_2">
+               <div class="container-fluid">
+                  <div class="row">
+                     <div class="col-md-6">
+                        <div class="mail_section_1">
+                        <form method="POST" action="/testimonial">
+                           <input type="text" class="mail_text" placeholder="Your Name" required name="author">
+                           <textarea class="massage-bt" placeholder="Write a message" rows="5" required id="comment" name="comment"></textarea>
+                           <input type="number" placeholder="rating" class="mail_text" required name="rating">
+                           <!-- <div class="rating-stars">
+                              <input type="radio" name="rating" id="rs0"><label for="rs0"></label>
+                              <input type="radio" name="rating" id="rs1"><label for="rs1"></label>
+                              <input type="radio" name="rating" id="rs2"><label for="rs2"></label>
+                              <input type="radio" name="rating" id="rs3" checked><label for="rs3"></label>
+                              <input type="radio" name="rating" id="rs4"><label for="rs4"></label>
+                              <input type="radio" name="rating" id="rs5"><label for="rs5"></label>
+                              <span class="number"></span>
+                           </div> -->
+                         
+                           <button class="send_bt"><a>SUBMIT</a></button>
+                        </form>
+                        </div>
+                     </div>
+                     <div class="col-md-6 padding_right_0">
+                        <div class="map_section"><img src="images/map-img.png"></div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <!-- testimonial section end -->
+      </div>
+     
+    
+      <!-- background bg end -->
+      <!-- Javascript files-->
+       
+      <script src="js/jquery.min.js"></script>
+      <script src="js/popper.min.js"></script>
+      <script src="js/bootstrap.bundle.min.js"></script>
+      <script src="js/jquery-3.0.0.min.js"></script>
+      <script src="js/plugin.js"></script>
+      <!-- sidebar -->
+      <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
+      <script src="js/custom.js"></script>
+      <!-- javascript --> 
+      <script src="js/owl.carousel.js"></script>
+      <script src="https:cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.js"></script>   
+   </body>
+</html>

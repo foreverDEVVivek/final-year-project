@@ -1,0 +1,115 @@
+<% layout('/layouts/boilerplate') %>
+<% if(success.length!=0 || error.length!=0) { %>
+
+   <div class="alert">
+      <h3><%= success %> Please Refresh the Page.</h3>
+    </div>
+
+   <% } %>
+<!-- background bg start -->
+      <div class="background_bg">
+        <!-- watchs section start -->
+         <div class="watchs_section layout_padding">
+            <div class="container">
+               <h1 class="watchs_taital">01<br>Our Watches</h1>
+               <div class="watchs_section_2">
+                  <div class="row">
+                     <div class="col-md-6">
+                        <div class="image_1"><img src="/images/panel_img2.jpeg"></div>
+                     </div>
+                     <div class="col-md-6">
+                        <h4 class="uni_text"><%=allWatchDetails[0].name%></h4>
+                        <p class="watchs_text"><%=allWatchDetails[0].description%></p>
+                        <h4 class="rate_text"><span style="color: #b60213;">$</span><%=allWatchDetails[0].price.toLocaleString('en-IN')%></h4>
+                        <div class="read_bt1"><a href="/watchs/<%=allWatchDetails[0]._id%>">Buy Now</a></div>
+                     </div>
+                  </div>
+               </div>
+               <div class="watchs_section_3">
+                  <div class="row">
+                     <div class="col-md-6">
+                        <h4 class="uni_text"><%=allWatchDetails[1].name%></h4>
+                        <p class="watchs_text"><%=allWatchDetails[1].description%></p>
+                        <h4 class="rate_text"><span style="color: #b60213;">$</span><%=allWatchDetails[1].price.toLocaleString('en-IN')%></h4>
+                        <div class="read_bt1"><a href="/watchs/<%=allWatchDetails[1]._id%>">Buy Now</a></div>
+                     </div>
+                     <div class="col-md-6">
+                        <div class="image_2"><img src="/images/panel_img5.jpeg"></div>
+                     </div>
+                  </div>
+               </div>
+               <div class="watchs_section_2">
+                  <div class="row">
+                     <div class="col-md-6">
+                        <div class="image_1"><img src="/images/panel_img3.jpeg"></div>
+                     </div>
+                     <div class="col-md-6">
+                        <h4 class="uni_text"><%=allWatchDetails[3].name%></h4>
+                        <p class="watchs_text"><%=allWatchDetails[3].description%></p>
+                        <h4 class="rate_text"><span style="color: #b60213;">$</span><%=allWatchDetails[3].price.toLocaleString('en-IN')%></h4>
+                        <div class="read_bt1"><a href="/watchs/<%=allWatchDetails[3]._id%>">Buy Now</a></div>
+                     </div>
+                  </div>
+               </div>
+               
+               <div class="watchs_section_3">
+                  <div class="row">
+                     <div class="col-md-6">
+                        <h4 class="uni_text"><%=allWatchDetails[2].name%></h4>
+                        <p class="watchs_text"><%=allWatchDetails[2].description%></p>
+                        <h4 class="rate_text"><span style="color: #b60213;">$</span><%=allWatchDetails[2].price.toLocaleString('en-IN')%></h4>
+                        <div class="read_bt1"><a href="/watchs/<%=allWatchDetails[2]._id%>">Buy Now</a></div>
+                     </div>
+                     <div class="col-md-6">
+                        <div class="image_2"><img src="/images/panel_img6.jpeg"></div>
+                     </div>
+                  </div>
+               </div>
+               <div class="watchs_section_2">
+                  <div class="row">
+                     <div class="col-md-6">
+                        <div class="image_1"><img src="/images/front_img.webp"></div>
+                     </div>
+                     <div class="col-md-6">
+                        <h4 class="uni_text"><%=allWatchDetails[4].name%></h4>
+                        <p class="watchs_text"><%=allWatchDetails[4].description%></p>
+                        <h4 class="rate_text"><span style="color: #b60213;">$</span><%=allWatchDetails[4].price.toLocaleString('en-IN')%></h4>
+                        <div class="read_bt1"><a href="/watchs/<%=allWatchDetails[4]._id%>">Buy Now</a></div>
+                     </div>
+                  </div>
+               </div>
+               <div class="watchs_section_3"></div>
+                  <div class="row">
+                     <div class="col-md-6">
+                        <h4 class="uni_text"><%=allWatchDetails[5].name%></h4>
+                        <p class="watchs_text"><%=allWatchDetails[5].description%></p>
+                        <h4 class="rate_text"><span style="color: #b60213;">$</span><%=allWatchDetails[5].price.toLocaleString('en-IN')%></h4>
+                        <div class="read_bt1"><a href="/watchs/<%=allWatchDetails[5]._id%>">Buy Now</a></div>
+                     </div>
+                     <div class="col-md-6">
+                        <div class="image_2"><img src="/images/front_img2.webp"></div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            </div>
+         </div>
+         <!-- watches section end -->
+      </div>
+      <!-- background bg end -->
+            <!-- Javascript files-->
+      <script src="js/jquery.min.js"></script>
+      <script src="js/popper.min.js"></script>
+      <script src="js/bootstrap.bundle.min.js"></script>
+      <script src="js/jquery-3.0.0.min.js"></script>
+      <script src="js/plugin.js"></script>
+      <!-- sidebar -->
+      <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
+      <script src="js/custom.js"></script>
+      <!-- javascript --> 
+      <script src="js/owl.carousel.js"></script>
+      <script src="https:cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.js"></script>    
+      <script src="/js/watchs.js">
+      </script>
+   </body>
+</html>

@@ -1,0 +1,205 @@
+<% layout('/layouts/boilerplate.ejs') %>
+<% if(success.length!=0) { %>
+
+   <div class="alert">
+      <h3><%= success %> Please Refresh the Page.</h3>
+    </div>
+
+   <% } %>
+   
+         <!-- banner section start -->
+         <div class="banner_section layout_padding">
+            <div id="main_slider" class="carousel slide" data-ride="carousel">
+               <div class="carousel-inner">
+                  <div class="carousel-item active">
+                     <div class="container">
+                        <h1 class="banner_taital"><%= allWatchDetails[0].name %></h1>
+                        <p class="banner_text"><%= allWatchDetails[0].description %></p>
+                        <div class="read_bt"><a href="/watchs/<%=allWatchDetails[0]._id %>">Buy Now</a></div>
+                     </div>
+                  </div>
+                  <% for(watch of allWatchDetails) {%>
+                     
+                     <div class="carousel-item">
+                        <div class="container">
+                           <h1 class="banner_taital"><%= watch.name %></h1>
+                           <p class="banner_text"> <%= watch.description %></p>
+                           <div class="read_bt"><a href="/watchs/<%=watch._id%>">Buy Now</a></div>
+                        </div>
+                     </div>
+                     <% } %>
+                  
+               </div>
+               <a class="carousel-control-prev" href="#main_slider" role="button" data-slide="prev">
+               <i class="fa fa-plus" style="font-size:24px; color: #fff;"></i>
+               </a>
+               <a class="carousel-control-next" href="#main_slider" role="button" data-slide="next">
+               <i class="fa fa-minus" style="font-size:24px;  color: #fff;"></i>
+               </a>
+            </div>
+         </div>
+         <!-- banner section end -->
+      </div>
+      <!-- header section end -->
+      <!-- background bg start -->
+      <div class="background_bg">
+         <!-- watchs section start -->
+         <div class="watchs_section layout_padding">
+            <div class="container">
+               <h1 class="watchs_taital">01<br>Our Watches</h1>
+               <div class="watchs_section_2">
+                  <div class="row">
+                     <div class="col-md-6">
+                        <div class="image_1"><img src="images/front_img.webp"></div>
+                     </div>
+                     <div class="col-md-6">
+                        <h4 class="uni_text"><%= allWatchDetails[0].name %></h4>
+                        <p class="watchs_text"><%= allWatchDetails[0].description %></p>
+                        <h4 class="rate_text"><span style="color: #b60213;">$</span><%=allWatchDetails[0].price.toLocaleString('en-IN')%></h4>
+                        <div class="read_bt1"><a href="/watchs/<%=allWatchDetails[0]._id%>">Buy Now</a></div>
+                     </div>
+                  </div>
+               </div>
+               <div class="watchs_section_3">
+                  <div class="row">
+                     <div class="col-md-6">
+                        <h4 class="uni_text"><%= allWatchDetails[1].name %></h4>
+                        <p class="watchs_text"><%= allWatchDetails[1].description %></p>
+                        <h4 class="rate_text"><span style="color: #b60213;">$</span><%=allWatchDetails[1].price.toLocaleString('en-IN')%></h4>
+                        <div class="read_bt1"><a href="/watchs/<%=allWatchDetails[1]._id%>">Buy Now</a></div>
+                     </div>
+                     <div class="col-md-6">
+                        <div class="image_2"><img src="images/front_img2.webp"></div>
+                     </div>
+                  </div>
+               </div>
+               <div class="seemore_bt"><a href="/watchs">See More</a></div>
+            </div>
+         </div>
+         <!-- watchs section end -->
+         <!-- about section start -->
+         <div class="about_section layout_padding">
+            <div class="container">
+               <h1 class="watchs_taital">02<br>About Shop</h1>
+               <div class="about_section_2">
+                  <div class="row">
+                     <div class="col-md-6">
+                        <p class="about_text">"Crafting timepieces that transcend moments, <span class="comp_text"> Knock 2 Watches </span>embodies the art of precision and elegance in every tick."</p>
+                        <div class="read_bt1"><a href="/about">About Us</a></div>
+                     </div>
+                     <div class="col-md-6">
+                        <div class="image_2"><img src="images/img-3.png"></div>
+                     </div>
+                  </div>
+               </div>
+               <div class="about_section_3">
+                  <div class="row">
+                     <div class="col-md-3">
+                        <div class="border_main">
+                           <div class="image_4"><img src="images/panel_img6.jpeg"></div>
+                        </div>
+                     </div>
+                     <div class="col-md-3">
+                        <div class="border_main">
+                           <div class="image_4"><img src="images/panel_img2.jpeg"></div>
+                        </div>
+                     </div>
+                     <div class="col-md-3">
+                        <div class="border_main">
+                           <div class="image_4"><img src="images/panel_img3.jpeg"></div>
+                        </div>
+                     </div>
+                     <div class="col-md-3">
+                        <div class="border_main">
+                           <div class="image_4"><img src="images/panel_img5.jpeg"></div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <!-- about section end -->
+         <!-- testimonial section start -->
+         <div class="testimonial_section layout_padding">
+            <div class="container">
+               <h1 class="watchs_taital">03<br>Testimonial</h1>
+               <div class="testimonial_section_2">
+                  <div class="row">
+                     <div class="col-md-6">
+                        <div class="box_main">
+                           <p class="testimonial_text">"Clear as Slogan Shows your Time, every watch shows the time but it shows your whether you're rich or poor. Nevertheless, The watches are amazing, I personally use watches as well as i recommend to others but they can't afford lol!, It helps me to say my introduction with saying nothing.</p>
+                        </div>
+                        <div class="client_main">
+                           <div class="client_left">
+                              <div class="client_img"><img src="images/client-img.png"></div>
+                           </div>
+                           <div class="client_right">
+                              <h6 class="client_name">- KRISHNA VERMA</h6>
+                              <p class="customer_text">Prime Customer</p>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="col-md-6">
+                        <div class="box_main">
+                           <p class="testimonial_text">Hey Guys! What do you think why i am here, I got payment of 1 Luxurious watch for writing this testimonial that's why i writing testimonial. However, I don't need of grace of anyone except god it is all i did for our friendship. But, Thank you for your precious gift. I will be wearing on my birthday.</p>
+                        </div>
+                        <div class="client_main">
+                           <div class="client_left">
+                              <div class="client_img"><img src="images/client-img1.png"></div>
+                           </div>
+                           <div class="client_right">
+                              <h6 class="client_name">Vivek Kushwaha</h6>
+                              <p class="customer_text">Prime Customer</p>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="seemore_bt_1"><a href="/testimonial">See More</a></div>
+            </div>
+         </div>
+         <!-- testimonial section end -->
+         <!-- contact section start -->
+         <div class="contact_section layout_padding">
+            <div class="container">
+               <h1 class="watchs_taital">04<br>Get In Touch</h1>
+            </div>
+            <div class="contact_section_2">
+               <div class="container-fluid">
+                  <div class="row">
+                     <div class="col-md-6">
+                        <div class="mail_section_1">
+                        <form method="POST" action="/">
+                           <input type="text" class="mail_text" placeholder="Your Name" required name="name">
+                           <input type="number" class="mail_text" placeholder="Phone Number" required name="number">
+                           <input type="text" class="mail_text" placeholder="Email" required name="email">
+                           <textarea class="massage-bt" placeholder="Massage" rows="5" required id="comment" name="message"></textarea>
+                           <button class="send_bt"><a>SEND</a></button>
+                        </form>
+                        </div>
+                     </div>
+                     <div class="col-md-6 padding_right_0">
+                        <div class="map_section"><img src="images/map-img.png"></div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <!-- contact section end -->
+      </div>
+      <!-- -background bg end -->
+      <!-- Javascript files-->
+       
+      <script src="js/jquery.min.js"></script>
+      <script src="js/app.js"></script>
+      <script src="js/popper.min.js"></script>
+      <script src="js/bootstrap.bundle.min.js"></script>
+      <script src="js/jquery-3.0.0.min.js"></script>
+      <script src="js/plugin.js"></script>
+      <!-- sidebar -->
+      <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
+      <script src="js/custom.js"></script>
+      <!-- javascript --> 
+      <script src="js/owl.carousel.js"></script>
+      <script src="https:cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.js"></script>    
+ 
