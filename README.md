@@ -47,4 +47,4 @@ This project is capable as much as you can submit this project in your final yea
 sell synopsis along with the project on reasonable price.
 
 To give a chance of service contact me on:
-[gmail](spareg1234@gmail.com)
+[gmail](https://mail.google.com/mail/u/0/#inbox)
