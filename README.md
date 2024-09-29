@@ -68,4 +68,7 @@ As this project is full stack project, So we have used multiple things to build 
   - MongoDB
   - mongoose
 
+## Contributing
+
+1. [free HTML templates](https://html.design/)
 
