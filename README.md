@@ -52,11 +52,12 @@ call on: +91 9310460643 same number available on whatsapp.
 ## Technologies Used
 
 As this project is full stack project, So we have used multiple things to build this project like
-- Front-end : - HTML
-              - CSS
-              - JavaScript
-              - Bootstrap
-              - CDN links
+- Front-end :
+  - HTML
+  - CSS
+  - JavaScript
+  - Bootstrap
+  - CDN links
 - Back-end : - Node.js
              - Express.js
              - passport.js
