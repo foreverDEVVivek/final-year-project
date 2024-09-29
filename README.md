@@ -58,17 +58,13 @@ As this project is full stack project, So we have used multiple things to build 
   - JavaScript
   - Bootstrap
   - CDN links
-- Back-end : - Node.js
-             - Express.js
-             - passport.js
-             - NPM packages (nodemon, joi etc.)
-- Database : - MongoDB
-             - mongoose
-  - Item 1
-- Item 2
-  - Subitem
-
-1. First item
-2. Second item
+- Back-end :
+  - Node.js
+  - Express.js
+  - passport.js
+  - NPM packages (nodemon, joi etc.)
+- Database :
+  - MongoDB
+  - mongoose
 
 
