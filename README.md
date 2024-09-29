@@ -23,7 +23,7 @@
 ## Installation
 
 Follow These steps in order to Installation:
-1. git clone https://github.com/username/repository.git  **Run this command using CLI in VS Code** make sure git already installed in your system ensuring by entering git -v
+1. Clone the repository first means having repo in your local system  **Run this command using CLI in VS Code** make sure git already installed in your system ensuring by entering git -v
 2. change username to foreverDEVVivek and respository.git to knock2watches.git
 3. Please change your **Enviorment Variables as required**
 4. In the Last, Download all required packages using NPM.  e.g. npm i express
