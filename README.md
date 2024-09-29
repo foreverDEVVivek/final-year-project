@@ -32,3 +32,8 @@ Follow These steps in order to Installation:
 
    ```bash
    git clone https://github.com/foreverDEVVivek/konck2watches.git
+
+2. **Install Required Packages:**
+    ```bash
+    npm i express joi mongoose express-session passport passport-local passport-local-mongoose connect-flash ejs-mate method-override dotenv
+    
