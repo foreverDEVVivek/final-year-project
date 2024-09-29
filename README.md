@@ -72,3 +72,14 @@ As this project is full stack project, So we have used multiple things to build 
 
 1. [free HTML templates](https://html.design/)
 
+## License
+
+- Open Source Projects **Anyone can install and modify, use**
+
+## Contact
+
+- Connect us on [spareg1234@gmail.com](https://mail.google.com/mail/u/0/#inbox)
+- Or call us **+91 9310460643**
+- Whatsapp us on **+91 9310460643**
+
+**Thank you all for looking on my project, Let me know if you want to work with us**
