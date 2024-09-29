@@ -43,8 +43,25 @@ Follow These steps in order to Installation:
 
 ## Usage 
 
-This project is capable as much as you can submit this project in your final year. Let me know if you required any kind of help from me, I will be there as well as i also 
-sell synopsis along with the project on reasonable price.
+This project is capable as much as you can submit this project in your final year. Let me know if you required any kind of help from me, I will be there as well as i also sell synopsis along with the project on reasonable price.
 
 To give a chance of service contact me on:
-[gmail](https://mail.google.com/mail/u/0/#inbox)
+[spareg1234@gmail.com](https://mail.google.com/mail/u/0/#inbox)
+call on: +91 9310460643 same number available on whatsapp.
+
+## Technologies Used
+
+As this project is full stack project, So we have used multiple things to build this project like
+- Front-end : - HTML
+              - CSS
+              - JavaScript
+              - Bootstrap
+              - CDN links
+- Back-end : - Node.js
+             - Express.js
+             - passport.js
+             - NPM packages (nodemon, joi etc.)
+- Database : - MongoDB
+             - mongoose
+  
+
