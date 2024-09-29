@@ -16,15 +16,19 @@
 
 ## Features
 
-- List key features of the project
-- Highlight functionality or areas of interest
-- Any planned updates or future improvements
+- Complete Project for College students
+- BCA & B.tech. or students who are studying for computer application, they can submit this project.
+- Further Updates will be given as required. ## Initial Phase.
 
 ## Installation
 
-Follow these steps to install and run the project locally:
+Follow These steps in order to Installation:
+1. git clone https://github.com/username/repository.git  ##Run this command using CLI in VS Code make sure git already installed in your system ensuring by entering git -v
+2. change username to foreverDEVVivek and respository.git to knock2watches.git
+3. In the Last, Download all required packages using NPM.  e.g. npm i express
+
 
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/your-username/project-name.git
+   git clone https://github.com/foreverDEVVivek/konck2watches.git
