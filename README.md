@@ -35,5 +35,16 @@ Follow These steps in order to Installation:
 
 2. **Install Required Packages:**
     ```bash
-    npm i express joi mongoose express-session passport passport-local passport-local-mongoose connect-flash ejs-mate method-override dotenv
-    
+    npm i express joi mongoose express-session passport passport-local passport-local-mongoose connect-flash ejs-mate method-override dotenv nodemon
+
+3. **Run Your Project:**
+    ```bash
+    nodemon app.js
+
+## Usage 
+
+This project is capable as much as you can submit this project in your final year. Let me know if you required any kind of help from me, I will be there as well as i also 
+sell synopsis along with the project on reasonable price.
+
+To give a chance of service contact me on:
+[gmail](spareg1234@gmail.com)
